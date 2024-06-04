@@ -1,0 +1,55 @@
+/* All css Of the calculator Provide the style and color */
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 255, 179, 0.904);
+}
+#calculator{
+    font-family: Arial,sans-serif;
+    padding: 30px;
+    background-color: rgba(255, 0, 200, 0.904);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+    border-color: blue;
+}
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgba(0, 255, 213, 0.614);
+}
+#keys{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color:rgba(0, 0, 0, 0.566);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgba(172, 242, 21, 0.573);
+}
+button:active{
+    background-color:rgba(0, 185, 28, 0.845);
+}
+.Opt_btn{
+    background-color: rgba(226, 128, 43, 0.774);
+}
+.Opt_btn:active{
+    background-color: rgba(43, 226, 70, 0.594);
+}
+

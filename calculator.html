@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GNET CAl</title>
+    <!-- linking the Style file link -->
+    <link rel="stylesheet" href="calculator_style.css">
+</head>
+<body>
+    <!-- div id="calculator" Main Size of the calculator  -->
+    <div id="calculator">
+        <input id="display" readonly>
+
+        <!-- All buttons of the calculator -->
+        <div id="keys">
+            <!-- AppendToDisplay() is help print the input on the calculator's Display -->
+            
+            <button onclick="appendTodisplay('+')" class="Opt_btn">+</button>
+            <button onclick="appendTodisplay('7')">7</button>
+            <button onclick="appendTodisplay('8')">8</button>
+            <button onclick="appendTodisplay('9')">9</button>
+
+            <button onclick="appendTodisplay('-')"class="Opt_btn">-</button>
+            <button onclick="appendTodisplay('4')">4</button>
+            <button onclick="appendTodisplay('5')">5</button>
+            <button onclick="appendTodisplay('6')">6</button>
+
+            <button onclick="appendTodisplay('*')"class="Opt_btn">*</button>
+            <button onclick="appendTodisplay('1')">1</button>
+            <button onclick="appendTodisplay('2')">2</button>
+            <button onclick="appendTodisplay('3')">3</button>
+
+            <button onclick="appendTodisplay('/')"class="Opt_btn">/</button>
+            <button onclick="appendTodisplay('.')"class="Opt_btn">.</button>
+
+            <!-- Special buttons for the calculate the equation and the clear the screen -->
+            <button onclick="Calculat('=')"class="Opt_btn">=</button>
+            <button onclick="ClearDisplay('c')"class="Opt_btn">C</button>
+        </div>
+    </div>
+    <script src="calculator_js.js"></script>
+</body>
+</html>
